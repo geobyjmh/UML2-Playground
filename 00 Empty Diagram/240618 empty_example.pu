@@ -1,0 +1,4 @@
+@startuml
+title Diagram type - Title
+note "Legend: Include a UML note on each \ndiagram to provide a simple, precise \ndescription. It is good to place the note in \nthe same location on each diagram." as n1
+@enduml
