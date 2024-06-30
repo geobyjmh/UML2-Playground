@@ -1,0 +1,13 @@
+@startuml
+title Class Diagram - Line Types 01
+note "Legend: The UML2 diagram demonstrates various line styles, \nsuch as solid, dashed, hollow diamonds, and filled \ndiamonds, to signify different types of relationships \nbetween Classes in a system model." as n1
+
+Lesson_Plan <|.. Lesson: implements a
+Car <|-- Ford: is a kind of
+House *-- Rooms: composed of
+Libarry o-- book: made up of
+Meal .. Ingredients: dependent on
+Man ..> Medication: dependent on
+Doctor  -- Patient: has a
+Class13 --> Class14
+@enduml
